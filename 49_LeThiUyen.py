@@ -34,6 +34,7 @@ def print_student_list():
         print("Danh sach trong.")
     else:
         for s in student_list:
+feature/search-student
             print(f" - Ten: {s['name']}, Nam sinh: {s['year_of_birth']}, Dia chi: {s['address']}")
     
 def search_student(search_name):
@@ -76,3 +77,5 @@ if __name__ == "__main__":
     
     print("\nTim kiem sinh vien theo ten 'Dung':")
     search_student("Dung")
+            print(f" - Ten: {s['name']}, Nam sinh: {s['year_of_birth']}, Dia chi: {s['address']}")
+main
